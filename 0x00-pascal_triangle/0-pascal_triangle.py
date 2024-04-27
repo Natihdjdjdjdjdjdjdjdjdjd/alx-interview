@@ -2,9 +2,11 @@
 """
 0-pascal_triangle
 """
-
-
 def pascal_triangle(n):
+   """
+    Returns a list of integers
+
+    """
 
     m = []
     if n <= 0:
