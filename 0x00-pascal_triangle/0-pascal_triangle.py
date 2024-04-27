@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 "THIIS IS the pascal"
 def pascal_triangle(n):
-    "this is n<0"
+    "this is you can assume n will be always an integer n <= 0 "
     m = []
     if n <= 0:
         return m
