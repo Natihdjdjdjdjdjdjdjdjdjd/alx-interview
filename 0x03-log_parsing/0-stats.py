@@ -35,14 +35,14 @@ try:
         if len(parsed_line) > 2:
             my_lines += 1
 
-            if count_lines <= 10:
+            if my_lines <= 10:
                 file_size += int(parsed_line[0])
                 code = parsed_line[1]
 
                 if (code in my_codes.keys()):
                     my_codes[code] += 1
 
-            if (count_lines == 10):
+            if (my_lines == 10):
                 print_msg(my_codes, file_size)
                 my_lines = 0
 
